@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Mageswari - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #564cb4;
+            color: #fff;
+            text-align: center;
+            padding: 6rem 0 4rem 0;
+            /* Adjusted padding to create space for the profile picture */
+            position: relative;
+        }
+
+        .header-content h1 {
+            font-size: 3rem;
+            margin: 0;
+            padding-top: 80px;
+            /* Adjusted padding to move the text down */
+        }
+
+        .header-content p {
+            font-size: 1.2rem;
+            color: #e0e0e0;
+            margin-top: 10px;
+            /* Added margin to separate the text from the image */
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 20px;
+            /* Adjusted top position to place the image above the text */
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid #fff;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e0e0e0;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 960px;
+        }
+
+        .section-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .section-content p,
+        .section-content ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .section-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section-content ul li {
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .section-content ul li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #328FD3;
+        }
+
+        .download-button {
+            background-color: #328FD3;
+            color: #fff;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .download-button:hover {
+            background-color: #1d6ca6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="WhatsApp Image 2025-03-18 at 19.39.52.jpeg" alt="R Mageswari's Profile Picture"
+                class="profile-picture">
+            <h1>R Mageswari</h1>
+            <p>I'm a passionate student, eager to learn and grow in the tech field.</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hi! I'm R Mageswari, a student with a strong interest in technology. I'm passionate about coding and have
+                been learning and developing skills in various programming languages and frameworks. I aim to contribute
+                to meaningful projects that can impact the community positively.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Bachelor of Computer Applications (BCA) - In Bharathidasan University</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>C++</li>
+                <li>MySQL</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://play.google.com/store/apps/details?id=com.neolex.gk_app">Simple Gk Quiz App</a>
+                </li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.neolex.img_comp">Image Size
+                        Compressor</a></li>
+                <!-- Add more projects here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <a href="portfolio.txt" target="_blank" class="download-button">Resume
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;<a href="https://neolex.in" style="color: rgb(255, 255, 255);">NEOLEX TECHNOLOGIES</a></p>
+    </footer>
+
+</body>
+
+</html>
